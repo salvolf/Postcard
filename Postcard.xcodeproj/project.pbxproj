@@ -12,6 +12,8 @@
 		C6E3D15E19D0C35200370BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E3D15C19D0C35200370BA2 /* Main.storyboard */; };
 		C6E3D16019D0C35200370BA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E3D15F19D0C35200370BA2 /* Images.xcassets */; };
 		C6E3D16C19D0C35200370BA2 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3D16B19D0C35200370BA2 /* PostcardTests.swift */; };
+		C6E3D17619D0C3C200370BA2 /* 2014-09-15 12.57.41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E3D17519D0C3C200370BA2 /* 2014-09-15 12.57.41.jpg */; };
+		C6E3D17819D0C4B500370BA2 /* Foto profilo_coffice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E3D17719D0C4B500370BA2 /* Foto profilo_coffice.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		C6E3D16519D0C35200370BA2 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E3D16A19D0C35200370BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6E3D16B19D0C35200370BA2 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		C6E3D17519D0C3C200370BA2 /* 2014-09-15 12.57.41.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2014-09-15 12.57.41.jpg"; sourceTree = "<group>"; };
+		C6E3D17719D0C4B500370BA2 /* Foto profilo_coffice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Foto profilo_coffice.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		C6E3D15619D0C35200370BA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C6E3D17719D0C4B500370BA2 /* Foto profilo_coffice.jpg */,
+				C6E3D17519D0C3C200370BA2 /* 2014-09-15 12.57.41.jpg */,
 				C6E3D15719D0C35200370BA2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -189,6 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E3D17819D0C4B500370BA2 /* Foto profilo_coffice.jpg in Resources */,
+				C6E3D17619D0C3C200370BA2 /* 2014-09-15 12.57.41.jpg in Resources */,
 				C6E3D15E19D0C35200370BA2 /* Main.storyboard in Resources */,
 				C6E3D16019D0C35200370BA2 /* Images.xcassets in Resources */,
 			);
