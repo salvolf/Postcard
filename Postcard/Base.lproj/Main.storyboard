@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Rwe-Hb-tkA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Rwe-Hb-tkA">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
     </dependencies>
@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2014-09-15 12.57.41.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2KV-dQ-vbL">
@@ -55,13 +55,13 @@
         <!--View Controller-->
         <scene sceneID="Xag-R1-yAu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0iH-Ud-fOL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="aYG-4T-mjO" customClass="ViewController" customModule="Postcard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SNe-WA-xeI"/>
                         <viewControllerLayoutGuide type="bottom" id="hSR-RC-dYN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Weg-gC-8xn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h5a-Rc-e0O">
@@ -76,7 +76,7 @@
                                     <rect key="frame" x="220" y="89" width="80" height="80"/>
                                 </variation>
                             </imageView>
-                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sending email..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fP-u9-KZ7">
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sending email..." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="161" translatesAutoresizingMaskIntoConstraints="NO" id="1fP-u9-KZ7">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -86,14 +86,6 @@
                                     <rect key="frame" x="33" y="89" width="161" height="21"/>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ezg-o4-FgM">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="33" y="273" width="267" height="30"/>
-                                </variation>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PhJ-JU-T1M">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -116,6 +108,14 @@
                                     <action selector="sendMailButtonPressed:" destination="aYG-4T-mjO" eventType="touchUpInside" id="svZ-4G-dPJ"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ezg-o4-FgM">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="269" width="267" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -123,9 +123,9 @@
                                 <exclude reference="h5a-Rc-e0O"/>
                                 <exclude reference="Knj-hy-2o6"/>
                                 <exclude reference="1fP-u9-KZ7"/>
-                                <exclude reference="Ezg-o4-FgM"/>
                                 <exclude reference="PhJ-JU-T1M"/>
                                 <exclude reference="rDq-tD-DF1"/>
+                                <exclude reference="Ezg-o4-FgM"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -133,9 +133,9 @@
                                 <include reference="h5a-Rc-e0O"/>
                                 <include reference="Knj-hy-2o6"/>
                                 <include reference="1fP-u9-KZ7"/>
-                                <include reference="Ezg-o4-FgM"/>
                                 <include reference="PhJ-JU-T1M"/>
                                 <include reference="rDq-tD-DF1"/>
+                                <include reference="Ezg-o4-FgM"/>
                             </mask>
                         </variation>
                     </view>
@@ -145,18 +145,19 @@
                         <size key="landscapeSize" width="568" height="320"/>
                     </simulatedScreenMetrics>
                     <connections>
+                        <outlet property="MailButton" destination="rDq-tD-DF1" id="WCY-2a-7DW"/>
                         <outlet property="enterMessageTextField" destination="PhJ-JU-T1M" id="kxW-jr-qAt"/>
                         <outlet property="enterNameTextField" destination="Ezg-o4-FgM" id="6CQ-u4-quf"/>
                         <outlet property="messageLabel" destination="1fP-u9-KZ7" id="IZU-2e-bjU"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0iH-Ud-fOL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1770" y="331"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vtn-aP-GVv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YX4-Fb-kbw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rwe-Hb-tkA" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
@@ -173,6 +174,7 @@
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="jyg-Wr-9cz"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YX4-Fb-kbw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="460.5" y="331"/>
         </scene>

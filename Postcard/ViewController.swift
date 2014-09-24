@@ -16,9 +16,17 @@ class ViewController: UIViewController {
                             
     @IBOutlet weak var enterMessageTextField: UITextField!
     
+    @IBOutlet weak var MailButton: UIButton!
+    
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         //Call will be evaluated when the button is pressed
         messageLabel.hidden = false
+        messageLabel.text = enterMessageTextField.text
+        enterMessageTextField.text = ""
+        enterMessageTextField.resignFirstResponder()
+        messageLabel.textColor = UIColor.redColor()
+        
+        MailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
     
     override func viewDidLoad() {
